@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build --preset bun",
+    "dev": "nuxt dev",
+    "postinstall": "nuxt prepare",
+    "preview": "nuxt preview"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.10.0",
+    "nuxt": "^3.8.2",
+    "typescript": "^5.3.2",
+    "vue": "^3.3.8"
+  }
+}
